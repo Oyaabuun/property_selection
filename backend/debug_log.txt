@@ -1,0 +1,45 @@
+
+DEBUG: evaluate_property received data: {'address': 'MG Road, Bangalore', 'lat': None, 'lng': None, 'asking_price': 10000000, 'property_type': '3bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 12.974724, 'lng': 77.609468, 'formatted_address': 'Mahatma Gandhi Rd, Bengaluru, Karnataka, India', 'place_id': 'ChIJE7w9OYcWrjsRnj23UubIcIs', 'source': 'cache'}
+
+DEBUG: evaluate_property received data: {'address': 'MG Road, Bangalore', 'lat': None, 'lng': None, 'asking_price': 10000000, 'property_type': '3bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 12.974724, 'lng': 77.609468, 'formatted_address': 'Mahatma Gandhi Rd, Bengaluru, Karnataka, India', 'place_id': 'ChIJE7w9OYcWrjsRnj23UubIcIs', 'source': 'cache'}
+
+DEBUG: evaluate_property received data: {'address': 'Prestige Shantiniketan, Whitefield, Bangalore', 'lat': None, 'lng': None, 'asking_price': 7500000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 12.9941061, 'lng': 77.7287551, 'formatted_address': 'XPRH+X5P PRESTIGE SHANTINIKETAN, ITPL Main Rd, Thigalarapalya, Whitefield, Bengaluru, Karnataka 560048, India', 'place_id': 'ChIJl22_nOkRrjsRKIsoZbHqEYg', 'source': 'cache'}
+
+DEBUG: evaluate_property received data: {'address': 'FM Nagar, Balasore, Odisha', 'lat': None, 'lng': None, 'asking_price': 7500000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 21.4819899, 'lng': 86.91545359999999, 'formatted_address': 'Fakir Mohan Nagar, Balasore, Odisha 756001, India', 'place_id': 'ChIJE4S823H1HDoREB8PtvyDkYg', 'source': 'cache'}
+
+DEBUG: evaluate_property received data: {'address': 'patia kiit college road bhubaneswar odisha', 'lat': None, 'lng': None, 'asking_price': 7500000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 20.3538237, 'lng': 85.8169678, 'formatted_address': 'KIIT Rd, Patia, Bhubaneswar, Odisha 751024, India', 'place_id': 'ChIJnWfv4j0JGToRauYOHSEd9X0', 'source': 'cache'}
+
+DEBUG: evaluate_property received data: {'address': 'Prestige Shantiniketan, Whitefield, Bangalore', 'lat': None, 'lng': None, 'asking_price': 7500000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 12.9941061, 'lng': 77.7287551, 'formatted_address': 'XPRH+X5P PRESTIGE SHANTINIKETAN, ITPL Main Rd, Thigalarapalya, Whitefield, Bengaluru, Karnataka 560048, India', 'place_id': 'ChIJl22_nOkRrjsRKIsoZbHqEYg', 'source': 'cache'}
+
+DEBUG: evaluate_property received data: {'address': 'FM Nagar, Balasore, Odisha', 'property_type': 'land', 'land_area_sqft': 2613.6000000000004, 'asking_price': 3800000, 'radius_m': 2000, 'end_use': 'self_use', 'road_width_ft': 30}
+DEBUG: resolved location: {'lat': 21.4819899, 'lng': 86.91545359999999, 'formatted_address': 'Fakir Mohan Nagar, Balasore, Odisha 756001, India', 'place_id': 'ChIJE4S823H1HDoREB8PtvyDkYg', 'source': 'cache'}
+
+DEBUG: evaluate_property received data: {'address': 'fm nagar, Balasore, Odisha', 'asking_price': 9500000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 21.4819899, 'lng': 86.91545359999999, 'formatted_address': 'Fakir Mohan Nagar, Balasore, Odisha 756001, India', 'place_id': 'ChIJE4S823H1HDoREB8PtvyDkYg', 'source': 'cache'}
+
+DEBUG: evaluate_property received data: {'address': 'm nagar, Balasore, Odisha', 'lat': None, 'lng': None, 'asking_price': 9500000, 'property_type': '2bhk', 'radius_m': 3000}
+DEBUG: resolved location: {'lat': 21.501168, 'lng': 86.91781519999999, 'formatted_address': 'Balasore, Odisha, India', 'place_id': 'ChIJNeA28IRfHDoRfBVwHL8y01w', 'source': 'geocoded_address'}
+
+DEBUG: evaluate_property received data: {'address': 'Prestige Shantiniketan, Whitefield, Bangalore', 'lat': None, 'lng': None, 'asking_price': 7500000, 'property_type': '2bhk', 'radius_m': 3000}
+DEBUG: resolved location: {'lat': 12.9941061, 'lng': 77.7287551, 'formatted_address': 'XPRH+X5P PRESTIGE SHANTINIKETAN, ITPL Main Rd, Thigalarapalya, Whitefield, Bengaluru, Karnataka 560048, India', 'place_id': 'ChIJl22_nOkRrjsRKIsoZbHqEYg', 'source': 'cache'}
+
+DEBUG: evaluate_property received data: {'address': '20.227052571830463, 85.77412821915739 Doon International School Rd Sijua, Patrapada, Bhubaneswar, Odisha 751019', 'lat': None, 'lng': None, 'asking_price': 7500000, 'property_type': '2bhk', 'radius_m': 3000}
+DEBUG: resolved location: {'lat': 20.2266935, 'lng': 85.775724, 'formatted_address': 'Doon International School Rd, Sijua, Patrapada, Bhubaneswar, Odisha 751019, India', 'place_id': 'ChIJCdSWNSymGToRIgc0OvQwBVQ', 'source': 'geocoded_address'}
+
+DEBUG: evaluate_property received data: {'address': 'fm nagar, Balasore, Odisha', 'asking_price': 9500000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 21.4819899, 'lng': 86.91545359999999, 'formatted_address': 'Fakir Mohan Nagar, Balasore, Odisha 756001, India', 'place_id': 'ChIJE4S823H1HDoREB8PtvyDkYg', 'source': 'cache'}
+
+DEBUG: evaluate_property received data: {'address': '29-31, Old Ag Colony, AG Colony, Unit 4, Bhouma Nagar, Bhubaneswar, Odisha 751022, India', 'lat': 20.282297458987, 'lng': 85.82899693709156, 'asking_price': 7800000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 20.282297458987, 'lng': 85.82899693709156, 'source': 'coordinates'}
+
+DEBUG: evaluate_property received data: {'address': 'Odisha State Centre, Sachivalaya Marg, Old Ag Colony, AG Colony, Unit 4, Bhouma Nagar, Bhubaneswar, Odisha 751022, India', 'lat': 20.281429, 'lng': 85.8348845, 'asking_price': 7800000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 20.281429, 'lng': 85.8348845, 'source': 'coordinates'}
+
+DEBUG: evaluate_property received data: {'address': 'Village & Post Office, Distt & Tehsil, near Roerich Art Gallery, Naggar, Himachal Pradesh 175130, India', 'lat': 32.1152499, 'lng': 77.1678721, 'asking_price': 7800000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 32.1152499, 'lng': 77.1678721, 'source': 'coordinates'}

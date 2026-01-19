@@ -1,0 +1,11 @@
+| Feature                        | General LLM | Decision AI Tool             |
+| ------------------------------ | ----------- | ---------------------------- |
+| Understand text                | ✅           | ✅                            |
+| Access structured land records | ❌           | ✅                            |
+| Validate legal docs            | ❌           | ✅                            |
+| Provide risk score             | ❌           | ✅                            |
+| Recommend actions              | ✅ (broad)   | ✅ (precise + backed by data) |
+| Local law compliance           | ❌           | ✅                            |
+| Valuation using comps          | ❌           | ✅                            |
+| Loan eligibility               | ❌           | ✅                            |
+| Prioritized checklist          | ❌           | ✅                            |
