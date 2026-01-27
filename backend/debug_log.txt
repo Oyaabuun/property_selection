@@ -43,3 +43,27 @@ DEBUG: resolved location: {'lat': 20.281429, 'lng': 85.8348845, 'source': 'coord
 
 DEBUG: evaluate_property received data: {'address': 'Village & Post Office, Distt & Tehsil, near Roerich Art Gallery, Naggar, Himachal Pradesh 175130, India', 'lat': 32.1152499, 'lng': 77.1678721, 'asking_price': 7800000, 'property_type': '2bhk', 'radius_m': 2000}
 DEBUG: resolved location: {'lat': 32.1152499, 'lng': 77.1678721, 'source': 'coordinates'}
+
+DEBUG: evaluate_property received data: {'address': 'XJJP+HWM, Indira Nagar II Stage, Hoysala Nagar, Indiranagar, Bengaluru, Karnataka 560038, India', 'lat': 12.981469372945456, 'lng': 77.6371720214844, 'asking_price': 5500000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 12.981469372945456, 'lng': 77.6371720214844, 'source': 'coordinates'}
+
+DEBUG: evaluate_property received data: {'address': 'FM Nagar, Balasore, Odisha', 'property_type': 'land', 'land_area_sqft': 2613.6000000000004, 'asking_price': 3800000, 'radius_m': 2000, 'end_use': 'self_use', 'road_width_ft': 30}
+DEBUG: resolved location: {'lat': 21.4819899, 'lng': 86.91545359999999, 'formatted_address': 'Fakir Mohan Nagar, Balasore, Odisha 756001, India', 'place_id': 'ChIJE4S823H1HDoREB8PtvyDkYg', 'source': 'cache'}
+
+DEBUG: evaluate_property received data: {'address': 'WCC7+84 Bengaluru, Karnataka, India', 'lat': 12.92081596248114, 'lng': 77.41280993865848, 'asking_price': 8000000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 12.92081596248114, 'lng': 77.41280993865848, 'source': 'coordinates'}
+
+DEBUG: evaluate_property received data: {'address': 'XJH7+VJ4, Rukmani Colony, Sivanchetti Gardens, Bengaluru, Karnataka 560042, India', 'lat': 12.979802596615215, 'lng': 77.61403874017158, 'asking_price': 8000000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 12.979802596615215, 'lng': 77.61403874017158, 'source': 'coordinates'}
+
+DEBUG: evaluate_property received data: {'address': '6RP3+P54, Pokhariput, Bhubaneswar, Odisha 751020, India', 'lat': 20.236687449484478, 'lng': 85.80278164420083, 'asking_price': 7500000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 20.236687449484478, 'lng': 85.80278164420083, 'source': 'coordinates'}
+
+DEBUG: evaluate_property received data: {'address': 'KOKILA ROYAL GARDEN, 6RP3+P54, Pokhariput, Bhubaneswar, Odisha 751020', 'asking_price': 9500000, 'property_type': '2bhk', 'radius_m': 2000}
+DEBUG: resolved location: {'lat': 20.2367653, 'lng': 85.80294409999999, 'formatted_address': '6RP3+P54, Pokhariput, Bhubaneswar, Odisha 751020, India', 'place_id': 'ChIJzcJ7UQCnGToRvwQNaagvnvE', 'source': 'geocoded_address'}
+
+DEBUG: evaluate_property received data: {'address': '955, 21st Main Rd, Siddanna Layout, Basavangudi, Stage II Banashankari, Banashankari, Bengaluru, Karnataka 560070, India', 'lat': 12.92811089674526, 'lng': 77.56508305072929, 'asking_price': 7500000, 'property_type': '2bhk', 'radius_m': 3000}
+DEBUG: resolved location: {'lat': 12.92811089674526, 'lng': 77.56508305072929, 'source': 'coordinates'}
+
+DEBUG: evaluate_property received data: {'address': 'WGXR+Q2H, 1st Cross Rd, Byatarayanapura, Banashankari 1st Stage, Banashankari, Bengaluru, Karnataka 560026, India', 'lat': 12.949375620106379, 'lng': 77.54018089890955, 'asking_price': 9500000, 'property_type': '2bhk', 'radius_m': 3500}
+DEBUG: resolved location: {'lat': 12.949375620106379, 'lng': 77.54018089890955, 'source': 'coordinates'}

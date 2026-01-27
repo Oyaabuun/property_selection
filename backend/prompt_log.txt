@@ -6,16 +6,16 @@ No markdown. No explanation outside JSON.
 
 INPUT:
 {
-  "asking_price": 7800000,
+  "asking_price": 9500000,
   "property_type": "2bhk",
   "end_use": "both",
   "region": {
-    "tier": "tier_2_3",
-    "label": "Non-metro India"
+    "tier": "tier_1",
+    "label": "Bengaluru"
   },
   "location": {
-    "lat": 32.1152499,
-    "lng": 77.1678721,
+    "lat": 12.949375620106379,
+    "lng": 77.54018089890955,
     "source": "coordinates"
   },
   "signals": {
@@ -40,18 +40,18 @@ INPUT:
       "summary": "Exact road width could not be verified. Internal residential access is assumed, which may impact construction feasibility and resale liquidity."
     },
     "air_quality": {
-      "score": 0.45,
-      "summary": "Air quality is Moderate pollution (health impact possible). Dominant pollutant: pm25. Sensitive individuals may experience discomfort.",
+      "score": 0.7,
+      "summary": "Air quality is Satisfactory (typical urban India). Dominant pollutant: pm10. This is typical across many Indian cities.",
       "details": {
-        "raw_aqi": 153,
-        "normalized_category": "Moderate pollution (health impact possible)",
-        "dominant_pollutant": "pm25",
+        "raw_aqi": 64,
+        "normalized_category": "Satisfactory (typical urban India)",
+        "dominant_pollutant": "pm10",
         "data_source": "waqi"
       }
     },
     "hospital_access": {
       "score": 0.21,
-      "summary": "Nearest hospital 'Circle Ayurvedic Hospital' is 10.0 km away (45 min in peak traffic) This reflects typical infrastructure gaps in Tier 2/3 regions.",
+      "summary": "Nearest hospital 'AV Multi-speciality Hospital - Banashankari' is 10.0 km away (45 min in peak traffic) This reflects typical infrastructure gaps in Tier 2/3 regions.",
       "details": {
         "distance_km": 10.0,
         "duration_min": 45.0,
@@ -73,26 +73,26 @@ INPUT:
       "details": {
         "school_count": 20,
         "notable_schools": [
-          "Sri Durga Public School",
-          "GOVT. ITI PATLIKUHAL",
-          "Brill. Pub.Senior Secondary School",
-          "Heritage Art College",
-          "Himalayan Sunrise School"
+          "Eduland Foundation",
+          "Growing Wonders Montessori (Centre #2)",
+          "Rahmania English School",
+          "Narayana Junior College - Banashankari",
+          "Vikas Preschool | Best Preshool in Vijayanagar | Kindergarten | Daycare | Playgroup | Training Programmes"
         ]
       }
     },
     "flood_risk": {
       "score": 0.8,
-      "summary": "Low flood risk (elevation: 1822.0 m)",
+      "summary": "Low flood risk (elevation: 870.0 m)",
       "details": {
-        "elevation_m": 1822.0,
+        "elevation_m": 870.0,
         "water_bodies_nearby": false
       }
     }
   }
 }
 
-NUMERIC_SCORE (0–1): 0.6
+NUMERIC_SCORE (0–1): 0.61
 
 RULES:
 - Be conservative

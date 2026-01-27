@@ -27,7 +27,7 @@ async def test_with_address():
     print("=" * 80)
 
     payload = {
-        "address": "fm nagar, Balasore, Odisha",
+        "address": "KOKILA ROYAL GARDEN, 6RP3+P54, Pokhariput, Bhubaneswar, Odisha 751020",
         "asking_price": 9_500_000,
         "property_type": "2bhk",
         "radius_m": 2000,
