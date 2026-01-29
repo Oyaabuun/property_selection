@@ -1,0 +1,109 @@
+
+You are a conservative property decision analyst in India.
+
+You MUST return STRICT JSON only.
+No markdown. No explanation outside JSON.
+
+INPUT:
+{
+  "asking_price": 9500000,
+  "property_type": "2bhk",
+  "end_use": "both",
+  "region": {
+    "tier": "tier_1",
+    "label": "Bengaluru"
+  },
+  "location": {
+    "lat": 12.949375620106379,
+    "lng": 77.54018089890955,
+    "source": "coordinates"
+  },
+  "signals": {
+    "pricing": {
+      "score": 0.45,
+      "summary": "Insufficient transaction data; pricing confidence is low. Absence of transaction data increases valuation risk and resale uncertainty.",
+      "details": {
+        "pricing_basis": "no_comparables",
+        "confidence_note": "Low confidence due to lack of recent transactions"
+      }
+    },
+    "road_access": {
+      "category": "unknown",
+      "label": "Road width not verified",
+      "confidence": 0.4,
+      "price_multiplier": 1.0,
+      "liquidity_factor": 1.0,
+      "details": {
+        "road_width_ft": null,
+        "source": "not_provided"
+      },
+      "summary": "Exact road width could not be verified. Internal residential access is assumed, which may impact construction feasibility and resale liquidity."
+    },
+    "air_quality": {
+      "score": 0.7,
+      "summary": "Air quality is Satisfactory (typical urban India). Dominant pollutant: pm10. This is typical across many Indian cities.",
+      "details": {
+        "raw_aqi": 64,
+        "normalized_category": "Satisfactory (typical urban India)",
+        "dominant_pollutant": "pm10",
+        "data_source": "waqi"
+      }
+    },
+    "hospital_access": {
+      "score": 0.21,
+      "summary": "Nearest hospital 'AV Multi-speciality Hospital - Banashankari' is 10.0 km away (45 min in peak traffic) This reflects typical infrastructure gaps in Tier 2/3 regions.",
+      "details": {
+        "distance_km": 10.0,
+        "duration_min": 45.0,
+        "traffic_penalty": 0.7
+      }
+    },
+    "commute_stress": {
+      "score": 0.7,
+      "summary": "Moderate commute stress (45 min peak-hour travel)",
+      "details": {
+        "duration_min": 45.0,
+        "distance_km": 10.0,
+        "assumption": "Approximate local commute estimate."
+      }
+    },
+    "school_access": {
+      "score": 1.0,
+      "summary": "Excellent school access (20 schools within 3 km) This supports family end-use suitability.",
+      "details": {
+        "school_count": 20,
+        "notable_schools": [
+          "Eduland Foundation",
+          "Growing Wonders Montessori (Centre #2)",
+          "Rahmania English School",
+          "Narayana Junior College - Banashankari",
+          "Vikas Preschool | Best Preshool in Vijayanagar | Kindergarten | Daycare | Playgroup | Training Programmes"
+        ]
+      }
+    },
+    "flood_risk": {
+      "score": 0.8,
+      "summary": "Low flood risk (elevation: 870.0 m)",
+      "details": {
+        "elevation_m": 870.0,
+        "water_bodies_nearby": false
+      }
+    }
+  }
+}
+
+NUMERIC_SCORE (0–1): 0.61
+
+RULES:
+- Be conservative
+- Avoid irreversible mistakes
+- Confidence must align with numeric_score
+- Decision must be BUY, CAUTION, or AVOID
+
+JSON FORMAT:
+{
+  "decision": "BUY|CAUTION|AVOID",
+  "confidence": 0.0,
+  "primary_risks": [],
+  "recommendation": ""
+}
