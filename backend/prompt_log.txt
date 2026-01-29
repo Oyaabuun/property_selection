@@ -6,7 +6,7 @@ No markdown. No explanation outside JSON.
 
 INPUT:
 {
-  "asking_price": 9500000,
+  "asking_price": 9000000,
   "property_type": "2bhk",
   "end_use": "both",
   "region": {
@@ -14,8 +14,8 @@ INPUT:
     "label": "Bengaluru"
   },
   "location": {
-    "lat": 12.949375620106379,
-    "lng": 77.54018089890955,
+    "lat": 12.982305742474422,
+    "lng": 77.63545540771487,
     "source": "coordinates"
   },
   "signals": {
@@ -40,18 +40,18 @@ INPUT:
       "summary": "Exact road width could not be verified. Internal residential access is assumed, which may impact construction feasibility and resale liquidity."
     },
     "air_quality": {
-      "score": 0.7,
-      "summary": "Air quality is Satisfactory (typical urban India). Dominant pollutant: pm10. This is typical across many Indian cities.",
+      "score": 0.45,
+      "summary": "Air quality is Moderate pollution (health impact possible). Dominant pollutant: pm25. Sensitive individuals may experience discomfort.",
       "details": {
-        "raw_aqi": 64,
-        "normalized_category": "Satisfactory (typical urban India)",
-        "dominant_pollutant": "pm10",
+        "raw_aqi": 151,
+        "normalized_category": "Moderate pollution (health impact possible)",
+        "dominant_pollutant": "pm25",
         "data_source": "waqi"
       }
     },
     "hospital_access": {
       "score": 0.21,
-      "summary": "Nearest hospital 'AV Multi-speciality Hospital - Banashankari' is 10.0 km away (45 min in peak traffic) This reflects typical infrastructure gaps in Tier 2/3 regions.",
+      "summary": "Nearest hospital 'Manipal Hospitals' is 10.0 km away (45 min in peak traffic) This reflects typical infrastructure gaps in Tier 2/3 regions.",
       "details": {
         "distance_km": 10.0,
         "duration_min": 45.0,
@@ -73,26 +73,26 @@ INPUT:
       "details": {
         "school_count": 20,
         "notable_schools": [
-          "Eduland Foundation",
-          "Growing Wonders Montessori (Centre #2)",
-          "Rahmania English School",
-          "Narayana Junior College - Banashankari",
-          "Vikas Preschool | Best Preshool in Vijayanagar | Kindergarten | Daycare | Playgroup | Training Programmes"
+          "RBANM's High School",
+          "National Public School",
+          "New Horizon Public School",
+          "Eastwood High School",
+          "HappyDays Preschool"
         ]
       }
     },
     "flood_risk": {
       "score": 0.8,
-      "summary": "Low flood risk (elevation: 870.0 m)",
+      "summary": "Low flood risk (elevation: 916.3 m)",
       "details": {
-        "elevation_m": 870.0,
+        "elevation_m": 916.3,
         "water_bodies_nearby": false
       }
     }
   }
 }
 
-NUMERIC_SCORE (0–1): 0.61
+NUMERIC_SCORE (0–1): 0.56
 
 RULES:
 - Be conservative

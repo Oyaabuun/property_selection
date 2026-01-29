@@ -67,3 +67,6 @@ DEBUG: resolved location: {'lat': 12.92811089674526, 'lng': 77.56508305072929, '
 
 DEBUG: evaluate_property received data: {'address': 'WGXR+Q2H, 1st Cross Rd, Byatarayanapura, Banashankari 1st Stage, Banashankari, Bengaluru, Karnataka 560026, India', 'lat': 12.949375620106379, 'lng': 77.54018089890955, 'asking_price': 9500000, 'property_type': '2bhk', 'radius_m': 3500}
 DEBUG: resolved location: {'lat': 12.949375620106379, 'lng': 77.54018089890955, 'source': 'coordinates'}
+
+DEBUG: evaluate_property received data: {'address': '532, 16th Cross Rd, Indira Nagar II Stage, Hoysala Nagar, Indiranagar, Bengaluru, Karnataka 560038, India', 'lat': 12.982305742474422, 'lng': 77.63545540771487, 'asking_price': 9000000, 'property_type': '2bhk', 'radius_m': 3500}
+DEBUG: resolved location: {'lat': 12.982305742474422, 'lng': 77.63545540771487, 'source': 'coordinates'}
